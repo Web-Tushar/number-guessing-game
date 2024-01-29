@@ -1,0 +1,108 @@
+*{
+     padding:0 ;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+#main{
+ margin-top: 30px;
+}
+.heading{
+     /* width: fit-content; */
+     padding: 15px 0;
+     background-color: gray;
+}
+.box{
+     text-align: center;
+     margin: 0 auto;
+     width: 400px;
+     height: 500px;
+     background-color: rgb(40, 107, 7);
+     border-radius: 20px;
+     overflow: hidden;
+}
+.img_box{
+     overflow: hidden;
+     object-fit: cover;
+     margin: 20px auto 0;
+     width: 200px;
+     height: 200px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.player{
+     margin-top: 20px;
+     color: blueviolet;
+}
+
+.input1{
+     display: block;
+     margin: auto;
+     outline: none;
+     margin-top: 10px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid white;
+     font-size: 20px;
+     background-color: transparent;
+}
+
+.input2{
+     display: none;
+     margin: auto;
+     outline: none;
+     margin-top: 10px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid white;
+     font-size: 20px;
+     background-color: transparent;
+}
+.start_btn{
+     background-color: #e02222;
+     border: none;
+     font-size: 28px;
+     text-align: center;
+     padding: 10px 40px;
+     margin-top: 20px;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     transition: all linear 0.2s;
+}
+
+.guess_btn{
+     background-color: #e02222;
+     border: none;
+     font-size: 28px;
+     text-align: center;
+     padding: 10px 40px;
+     margin-top: 30px;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     transition: all linear 0.2s;
+     display: none;
+}
+
+.again_btn{
+     background-color: #e02222;
+     border: none;
+     font-size: 28px;
+     text-align: center;
+     padding: 10px 40px;
+     margin-top: 30px;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     transition: all linear 0.2s;
+     display: none;
+}
+
+
+
+
+
