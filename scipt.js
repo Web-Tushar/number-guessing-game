@@ -70,13 +70,13 @@ guess_btn.addEventListener('click',function(){
                      again_btn.style.display = 'block'
                  }
              }else{
-               player_two_err.innerHTML = '*please enter number between 0 to 10'
+               player_two_err.innerHTML = 'please enter number between 0 to 10'
              }
          }else{
-          player_two_err.innerHTML = '*please enter number'
+          player_two_err.innerHTML = 'please enter number'
          }
      }else{
-          player_two_err.innerHTML = "*please enter number & don't use text"
+          player_two_err.innerHTML = "please enter number & don't use text"
      }
  })
  again_btn.addEventListener('click',function(){
